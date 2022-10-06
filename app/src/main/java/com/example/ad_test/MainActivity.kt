@@ -45,6 +45,6 @@ class MainActivity : AppCompatActivity() {
     fun onClickBtTest(view: View) {
         //Toast.makeText(applicationContext, "London is a capital of Great Britain! My name is Igor!", Toast.LENGTH_SHORT).show()
         man.happyBirthday()
-        bc.tvTest.text = man.age.toString()
+        bc.tvTest.text = man.age.toString()+" git test"
     }
 }
